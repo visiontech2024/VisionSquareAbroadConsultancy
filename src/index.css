@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*
+@font-face {
+  font-family: 'Roboto Flex';
+  src: url('/src/assets/Roboto_Flex/static/RobotoFlex-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}*/
+
+/* Add additional weights or styles if needed */
+@font-face {
+  font-family: 'Roboto Flex';
+  src: url('./assets/Roboto_Flex/static/RobotoFlex-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+/* Set Roboto Flex as the default font for the entire website */
+body {
+  font-family: 'Roboto Flex', sans-serif;
+}
